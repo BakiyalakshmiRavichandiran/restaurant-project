@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+   <head>
+       <title>BISMEE HOTEL</title>
+	   <style>
+	   body{
+	   width:1510px;
+	   height:1000px;
+	   }
+	       #d1{
+               width:1500px;
+               height:1700px;
+			   display:grid;
+			   background-color:red;
+			   grid-template-rows:5% 85% 10%;
+              }		
+          #n
+           { 
+            width:100%;
+            height:100%;
+			border:2px black solid;
+			display:grid;
+			grid-template-columns:40% 30% 30%;
+			background-color:#4B3229;
+           }	
+            h1
+           {
+            font-size:30px;
+			font-weight:bolder;
+			font-style:italic;
+			font-family:Algerian;
+			color:black;
+			padding-left:200px;
+           }
+           #n1
+            {
+            display:flex;
+            gap:40px;
+			padding-top:40px;
+            }			
+		   a
+		   {
+		    text-decoration:none;
+			font-size:15px;
+			color:black;
+			font-weight:bolder;
+			}
+			#n2
+			{
+			 padding-top:35px;
+			 display:flex;
+			 flex-direction:column;
+			 display:none;
+			 gap:2px;
+			 }
+			 #i2{
+			 width:200px;
+			 height:70px;
+			 }
+		   #m1
+		   {
+		   width:100px;
+		   height:30px;
+		   border:none;
+		   background:#4B3229;
+		   font-size:15px;
+		   font-weight:bolder;
+		   border-radius:20px;
+		   margin-top:35px;
+		   margin-left:300px;
+		   }
+		   strong
+		   {
+		   color:red;
+		   }
+		   a:hover
+		   {
+		   color:red;
+		   font-family:Forte;
+		   }
+		   h1:hover
+		   {
+		   text-shadow:2px 2px 2px #F37367;
+		   }
+		   #n2 a
+		   {
+		   width:150px;
+		   font-size:20px;
+		   font-family:Cooper Black;
+		   background-color:white;
+		   text-align:center;
+		   border-radius:20px;
+		   margin-left:300px;
+		   }
+		   #n2 a:hover
+		   {
+		   background-color:#4B3229;
+		   }
+		   main
+		   {
+		   display:grid;
+		   grid-template-rows:30% 66%;
+		   }
+		   #f1
+		   {
+		   border:2px white solid;
+		   display:grid;
+		   grid-template-columns:50% 50%;
+		   }
+		   #i1
+		   {
+		   width:700px;
+		   height:90%;
+		   border-radius:50%;
+		   }
+		   h2
+		   {
+		   text-align:center;
+		   margin-top:95px;
+		   font-family:Goudy Stout;
+		   }
+		   #f2
+		   {
+		   background-image:url("main.jpg");
+		   background-repeat:no-repeat;
+		   background-size:100%;
+		   }
+		   footer{
+		   border:2px solid black;
+		   background-color:#766868;
+		   }
+		  figure
+		   {
+		   width:400px;
+		   height:150px;
+		   float:left;
+		   margin-top:150px;
+		   }
+		   .d
+		   {
+		   width:400px;
+		   height:400px;
+		   float:left;
+		   position:relative;
+		   top:50px;
+		   margin-left:50px;
+		   }
+		   figcaption
+		   {
+		    font-size:20px;
+			font-weight:bolder;
+			font-family:Arial Black;
+		   }
+		   #hn
+		   {
+		   margin-left:300px;
+		   }
+	   </style>
+   </head>
+   <body>
+   <div id="d1">
+       <section id="n">
+       <h1>Bis<strong>mee</strong> Restu<strong>rant</strong></h1>
+	   <nav id="n1">
+	      <a href="food.jpg">HOME</a>
+		  <a href="food.jpg">ABOUT US</a>
+		  <a href="food.jpg">CONTACT</a>
+		  <a href="food.jpg">SIGN IN</a>
+		  </nav>
+		   <img src="food.jpg" id="i2">
+	   </section>
+	   <main>
+	    <div id="f1">
+		 <section id="s1">
+		     <h2>GOOD FOOD IS THE FOUNDATION OF GENUINE HAPPINESS</h2>
+			 <input type="button" value="MENUS" id="m1" onclick="showmenu()">
+		  <nav id="n2">
+		  <a href="food.jpg">Biryani</a>
+		  <a href="food.jpg">Starters</a>
+		  <a href="food.jpg">Kebabs</a>
+		  <a href="food.jpg">Curries</a>
+		  <a href="food.jpg">Indian breads</a>
+		  <a href="food.jpg">Desserts</a>
+		  </nav>
+		 </section>
+		 <section id="s2">
+		 <img src="bfront.jpg" id="i1">
+		 </section>
+		</div>
+		<div id="f2">
+		       <div>
+			        <figure class="c">
+					      <img src="recipes.png" width="150px" height="150px">
+						  <figcaption>OUR RECIPES</figcaption>
+						  <p>Our native recipes are meticulously crafted in an authentic traditional way with ingredients  procured from the villages down south Tamilnadu. Each dish would tell you a story.</p>
+					</figure>
+					<figure  class="c">
+					      <img src="signature.png" width="150px" height="150px">
+						  <figcaption>SIGNATURE DISHES</figcaption>
+						  <p>In house preparation of our sumptuous Kola urundai, Mutton Sukka, Naatu Kozhi Idichathu, Kalan Milagu, Urulai roast and our unique desert – Ilaneer payasam</p>
+					</figure>
+					<figure  class="c">
+					      <img src="outdoor.png" width="150px" height="150px">
+						  <figcaption>OUTDOOR CATERING</figcaption>
+						  <p>We undertake catering to Party orders, Corporate orders, Family functions where the client could choose from our variety of native dishes.</p>
+					</figure>
+			   <figure class="d">
+			        <img src="ayirai.jpg" width="400px" height="300px">
+					<figcaption>Ayirai Meen Kuzhambu</figcaption>
+					<p>Indian spiny loach is a very tiny fresh water fish found in paddy / streams of rural south india. This fish has medicinal value and much sought after. Ayirai Meen Kuzhambu is a delicacy, with its unique taste it is a must try in Munveedu.</p>
+			   </figure>
+			   <figure class="d">
+			        <img src="nattu.jpg" width="400px" height="300px">
+					<figcaption>Nattu Kozhi Idichathu</figcaption>
+					<p>A country chicken dish cooked in a traditional way. Adding the native tamilnadu spices to the perfection enhance your taste buds.</p>
+			   </figure>
+			   <figure class="d">
+			   <img src="mutton.jpg" width="400px" height="300px">
+			   <figcaption>Mutton Sukka</figcaption>
+			   <p>Mutton Sukka also known as Mutton Chukka is a mouthwatering South Indian Chettinad recipe.</P>
+			   </figure>
+			   </div>
+		</div>
+		 <h1 id="hn">NATIVE STYLE  FINE DINING RESTAURANT</h1>
+	   </main>
+	   <footer>
+	   </footer>
+	   </div>
+	   <script>
+	         function showmenu()
+			 {
+			  var a=document.getElementById("m1")
+			  var b=document.getElementById("n2")
+			  if(a.value=="MENUS")
+			  {
+			    a.value="CLOSE";
+				b.style.display="flex";
+				}
+				else
+				{
+				a.value="MENUS"
+				b.style.display="none";
+				}
+				}
+	   </script>
+   </body>
+</html>
